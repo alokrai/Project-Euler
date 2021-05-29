@@ -18,7 +18,6 @@ function generatePrimes() {
   for (let i = 3; i < 2000000; i = i + 2) {
     if (isPrime(i)) {
       primes.push(i);
-      console.log(i);
     }
   }
 }
